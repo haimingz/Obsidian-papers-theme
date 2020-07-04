@@ -1,0 +1,140 @@
+.theme-light{
+    --preview-font:'Charter','Georgia','-apple-system','Microsoft Yahei';
+    --edit-font: 'Helvetica', '-apple-system','Microsoft Yahei';
+    --matched-text-bg:rgba(255, 255, 0, 0.2);
+    --search-result-bg:rgba(200,200,200,0.3);
+    --link-color:rgb(0, 117, 162);
+}
+.theme-dark{
+    --preview-font:'Charter','Georgia','-apple-system','Microsoft Yahei';
+    --edit-font: 'Helvetica', '-apple-system','Microsoft Yahei';
+    --matched-text-bg:rgba(255, 255, 0, 0.2);
+    --search-result-bg:rgba(8, 8, 8, 0.5);
+    --link-color:rgb(0, 117, 162);
+}
+
+
+body{
+    font-family: var(--preview-font);
+    font-size: 16px;
+}
+
+
+/* set editor mode font */
+
+.markdown-source-view {
+    font-family: var(--edit-font);
+}
+
+/* make latex math codes upright*/
+
+.cm-math{
+    font-style: normal !important;
+}
+
+/* make editor mode lines equal in height 
+so that they look more like plain text */
+
+.HyperMD-header.HyperMD-header-1.CodeMirror-line,
+.HyperMD-header.HyperMD-header-2.CodeMirror-line,
+.HyperMD-header.HyperMD-header-3.CodeMirror-line,
+.HyperMD-header.HyperMD-header-4.CodeMirror-line,
+.HyperMD-header.HyperMD-header-5.CodeMirror-line,
+.HyperMD-header.HyperMD-header-6.CodeMirror-line,
+.HyperMD-codeblock,
+.HyperMD-footnote,
+.HyperMD-list-line,
+.cm-inline-code,
+.cm-math{
+    line-height: 1.1rem !important;
+    font-size: 1rem !important;
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
+}
+
+
+/* make header in preview mode match journal paper style */
+
+h1{
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+}
+h2{
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+
+}
+h3{
+    font-size: 1.1rem !important;
+    font-weight: normal !important;
+    font-style: italic !important;
+    text-decoration: underline;
+}
+h4{
+    font-size: 1.1rem !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    text-decoration: underline !important; 
+}
+h5,
+h6{
+    font-size: 1.0rem !important;
+    font-weight: bold !important;
+}
+
+/* make image smaller by default */
+
+img{
+    width: 50%;
+    margin:0px auto;
+    text-align: center;
+    display: table-cell;
+}
+
+/* make hyperlinks match journal paper style */
+
+a:link{
+    text-decoration: none !important;
+    color: var(--link-color) !important;
+}
+
+
+/* set search result styles */
+
+.search-result-file-title{
+    font-size: 1rem;
+}
+.search-result{
+    background-color:var(--search-result-bg);
+    border-radius: 4px;
+}
+.search-result-file-matched-text{
+    background-color:var(--matched-text-bg);
+}
+
+/* make the scroll-bars smaller to save space*/
+
+::-webkit-scrollbar{
+    background: transparent;
+    width: 5px;
+    height: 5px;
+}
+
+/* activate Andy Matuschak mode */
+
+.workspace-split.mod-vertical{
+    overflow-x:auto; 
+}
+.workspace-split.mod-horizontal{
+    overflow-y: auto;
+}
+.workspace-split.mod-root > .workspace-leaf{
+    min-width: 500px; 
+    min-height: 500px;
+}
+
+
+
+
+
+
