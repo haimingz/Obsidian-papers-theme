@@ -9,7 +9,7 @@ This theme focuses more on improving the writing experience via the following ap
 - Preview mode style is carefully designed. Researchers may find it similar to Elsevier journal papers. 
 - Backlinks from a single note are grouped by a dark shade to avoid visual confusion.
 - Andy Matuschak mode is activated by default.
-- Scrollbars are made smaller to save screen space.
+- Scrollbars are made smaller to tidy-up the workspace.
 - Images are smaller (50%) by default.
 
 ## Screenshots
