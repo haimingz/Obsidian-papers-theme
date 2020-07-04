@@ -10,6 +10,7 @@ This theme focuses more on improving the writing experience via the following ap
 - Backlinks from a single note are grouped by a dark shade to avoid visual confusion.
 - Andy Matuschak mode is activated by default.
 - Scrollbars are made smaller to save screen space.
+- Images are smaller (50%) by default.
 
 ## Screenshots
 
