@@ -5,10 +5,10 @@ A simple yet delicate theme for the notetaking app Obsidian inspired by LaTeX ed
 
 This theme focuses more on improving the writing experience via the following approaches:
 
-- All lines are made equal in font size and height in order to make the edit mode experience close to writing on plain text. 
+- All lines in edit mode are made equal in font size and height in order to make the writting experience close to writting plain text in LaTeX editors. 
 - Preview mode style is carefully designed. Researchers may find it similar to Elsevier journal papers. 
 - Backlinks from a single note are grouped by a dark shade to avoid visual confusion.
-- Andy Matuschak mode is activated by default.
+- A simple Andy Matuschak mode is activated by default.
 - Scrollbars are made smaller to tidy-up the workspace.
 - Images are smaller (50%) by default.
 
