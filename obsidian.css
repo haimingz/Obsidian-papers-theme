@@ -41,15 +41,28 @@ so that they look more like plain text */
 .HyperMD-header.HyperMD-header-4.CodeMirror-line,
 .HyperMD-header.HyperMD-header-5.CodeMirror-line,
 .HyperMD-header.HyperMD-header-6.CodeMirror-line,
+.HyperMD-list-line.HyperMD-list-line-1.CodeMirror-line,
+.HyperMD-list-line.HyperMD-list-line-2.CodeMirror-line,
+.HyperMD-list-line.HyperMD-list-line-3.CodeMirror-line,
+.HyperMD-list-line.HyperMD-list-line-4.CodeMirror-line,
+.HyperMD-list-line.HyperMD-list-line-5.CodeMirror-line,
+.HyperMD-list-line.HyperMD-list-line-6.CodeMirror-line,
 .HyperMD-codeblock,
 .HyperMD-footnote,
 .HyperMD-list-line,
+.CodeMirror-line,
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.cm-header-6,
 .cm-inline-code,
 .cm-math{
-    line-height: 1.1rem !important;
+    line-height: 1.5rem !important;
     font-size: 1rem !important;
-    padding-top: 0.2rem !important;
-    padding-bottom: 0.2rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 
