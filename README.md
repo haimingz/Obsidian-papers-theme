@@ -1,4 +1,4 @@
-# obsidian-papers-theme
+# Obsidian-papers-theme
 A simple yet delicate theme for the notetaking app Obsidian inspired by LaTeX editor and journal papers.
 
 ## Highlights
