@@ -1,24 +1,22 @@
 .theme-light{
-    --preview-font:'Charter','Georgia','-apple-system','Microsoft Yahei';
+    --preview-font:'Charter','Georgia','思源宋体 CN','宋体','-apple-system','Microsoft Yahei';
     --edit-font: 'Helvetica', '-apple-system','Microsoft Yahei';
     --matched-text-bg:rgba(255, 255, 0, 0.2);
     --search-result-bg:rgba(200,200,200,0.3);
     --link-color:rgb(0, 117, 162);
 }
 .theme-dark{
-    --preview-font:'Charter','Georgia','-apple-system','Microsoft Yahei';
+    --preview-font:'Charter','Georgia','思源宋体 CN','宋体','-apple-system','Microsoft Yahei';
     --edit-font: 'Helvetica', '-apple-system','Microsoft Yahei';
     --matched-text-bg:rgba(255, 255, 0, 0.2);
     --search-result-bg:rgba(8, 8, 8, 0.5);
     --link-color:rgb(0, 117, 162);
 }
 
-
 body{
     font-family: var(--preview-font);
     font-size: 16px;
 }
-
 
 /* set editor mode font */
 
@@ -73,20 +71,19 @@ h1{
     font-weight: bold !important;
 }
 h2{
-    font-size: 1.2rem !important;
+    font-size: 1.3rem !important;
     font-weight: bold !important;
-
 }
 h3{
-    font-size: 1.1rem !important;
+    font-size: 1.2rem !important;
     font-weight: normal !important;
     font-style: italic !important;
     text-decoration: underline;
 }
 h4{
-    font-size: 1.1rem !important;
+    font-size: 1.0rem !important;
     font-weight: normal !important;
-    font-style: normal !important;
+    font-style: italic !important;
     text-decoration: underline !important; 
 }
 h5,
@@ -98,7 +95,7 @@ h6{
 /* make image smaller by default */
 
 img{
-    width: 50%;
+    max-width:80% !important;
     margin:0px auto;
     text-align: center;
     display: table-cell;
@@ -110,7 +107,6 @@ a:link{
     text-decoration: none !important;
     color: var(--link-color) !important;
 }
-
 
 /* set search result styles */
 
@@ -133,21 +129,31 @@ a:link{
     height: 5px;
 }
 
-/* activate Andy Matuschak mode */
+/* Simple Andy Matuschak mode */
 
 .workspace-split.mod-vertical{
     overflow-x:auto; 
 }
-.workspace-split.mod-horizontal{
-    overflow-y: auto;
-}
 .workspace-split.mod-root > .workspace-leaf{
-    min-width: 500px; 
-    min-height: 500px;
+    min-width: 500px;    
 }
 
+/* make scroll-bar in markdown embed stick to right edge */
 
-
-
-
-
+.markdown-embed{
+    padding: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.markdown-embed-content{
+    padding-left: 20px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-right: 20px !important;
+}
+.markdown-embed-title{
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    height: auto;
+    font-size: 1.1rem;
+}
